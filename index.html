@@ -10,6 +10,7 @@
       href="https://unpkg.com/ionicons@4.5.10-0/dist/css/ionicons.min.css"
       rel="stylesheet"
     />
+
   </head>
   <body>
     <div class="wrapper">
@@ -46,12 +47,25 @@
         <img src="./img/me.jpg" alt="Lively and colourful concert" />
         <div class="text-container">
           <h2>About me</h2>
-          <p>I'm 24 years old.</p>
+          <p>I'm <span id="age"></span> years old.</p>
           <p>Yes thats me tasting 12 different coffee falvours in bali</p>
          
         </div>
       </div>
     </div>
   </body>
-  <script src="/src/main.js"></script>
+  <script src="src/main.js"></script>
+  <script>
+
+    function calculate_age(dob) { 
+  var diff_ms = Date.now() - dob.getTime();
+  var age_dt = new Date(diff_ms); 
+
+  return Math.abs(age_dt.getUTCFullYear() - 1970);
+ 
+}
+document.addEventListener("DOMContentLoaded", function(event) { 
+document.getElementById("age").apped(calculate_age(new Date(1996, 1, 1)))
+});
+  </script>
 </html>
