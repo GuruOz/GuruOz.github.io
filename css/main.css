@@ -151,7 +151,8 @@ a {
   font-family: Bebas, sans-serif;
   font-weight: 400;
   position: absolute; 
-  font-size: 7.5rem;
+  font-size: 28px;
+  font-size: 7vw;
   top: 70%;
   left: 23%;
 }
