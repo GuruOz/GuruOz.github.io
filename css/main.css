@@ -122,17 +122,17 @@ a {
 }
 
 .hero-text ul {
-  font-size: 0.75rem;
+  font-size: 1rem;
   position: absolute;
-  right: 2.5rem;
-  top: 2.5rem;
+  left: 0rem;
+  top: 6.5rem;
 }
 
 .hero-text ul li {
   margin-left: 2.5rem;
   list-style-type: none;
-  float: left;
   visibility: hidden;
+  top: 4rem;
 }
 
 .hero-text ul li:nth-of-type(3) {
@@ -243,4 +243,9 @@ a {
   .hero-text {
     background-size: contain;
   }
+}
+
+.upsidedown {
+    -webkit-transform: rotateX(180deg);
+  transform: rotateX(180deg); 
 }

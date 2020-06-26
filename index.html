@@ -10,6 +10,15 @@
       href="https://unpkg.com/ionicons@4.5.10-0/dist/css/ionicons.min.css"
       rel="stylesheet"
     />
+    
+    <script src="src/main.js"></script>
+    <style type="text/css">
+      .txtUpsideDown 
+      {
+        -webkit-transform: rotate(-180deg);  /* Safari 3.1+, Chrome */
+        position: absolute; 
+      }
+      </style>
 
   </head>
   <body>
@@ -21,9 +30,11 @@
         <div class="parallax__layer people1"></div>
         <div class="parallax__layer people2"></div>
         <div class="parallax__layer people3"></div>
+        
         <div class="parallax__layer hero-text">
           <h2>Guruparan Prakash</h2>
           <ul>
+            <li><a href="#aboutme" >About me</a></li>
             <li><a href="#">Passions</a></li>
             <li><a href="#">Goals</a></li>
           </ul>
@@ -47,14 +58,31 @@
         <img src="./img/me.jpg" alt="Lively and colourful concert" />
         <div class="text-container">
           <h2>About me</h2>
-          <p>I'm <span id="age"></span> years old.</p>
-          <p>Yes thats me tasting 12 different coffee falvours in bali</p>
+          <p style="text-align: justify;" id="aboutme">I'm currently <span id="age"></span> years old. Spent my secondary school days in Siglap Secondary and went on to Singapore Poly to persue my Diploma in Computer Engineering. 3 years later, i got my diploma after finishing my enormous FYP project on drones. Read more about it <a href="#fyp" style="text-decoration: underline;">here</a> 
+            
+            <br> <br>
+            
+            After completing my diploma I was sent off to go through every Singaporean male ritual. 2 years of National service had a significant impact on me. Made new friends and learnt new things. During this period, I found a new liking for networking. Managed to study and pass the CCENT exam, my first certification. A memorable milestone indeed. 
+          
+            <br><br>
+        
+            After my time in the Army ended, the next major challenge of my life was brewing. I was off to traverse through the oceanic region of earth, in Australia (or Straya as the locals calls it). And yes, everything was <span class="txtUpsideDown">&nbsp; nwod edispu &nbsp;</span>
+
+            <br><br>
+
+            Talk about uni exp
+
+          </p>
+
+          
+          <p>Yes thats me tasting 12 different coffee falvours in bali wearing a cowboy hat</p>
          
         </div>
       </div>
+
     </div>
   </body>
-  <script src="src/main.js"></script>
+  
   <script>
 
     function calculate_age(dob) { 
