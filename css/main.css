@@ -2,7 +2,7 @@
 
 @font-face {
   font-family: Bebas;
-  src: url('../fonts/BebasKai-Regular.otf');
+  src: url('../assets/BebasKai.otf');
 }
 
 * {
@@ -17,6 +17,7 @@ body {
   height: 100%;
   color: #fff;
   background-color: #000;
+  background-image: "../img/sky2.jpg";
   font-family: Montserrat, Arial, Helvetica, sans-serif;
   font-weight: 700;
 }
@@ -154,7 +155,7 @@ a {
   font-size: 28px;
   font-size: 7vw;
   top: 70%;
-  left: 23%;
+  left: 33%;
 }
 
 
