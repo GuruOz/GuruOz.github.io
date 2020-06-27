@@ -131,7 +131,7 @@ a {
 .hero-text ul li {
   margin-left: 2.5rem;
   list-style-type: none;
-  visibility: hidden;
+  visibility: visible;
   top: 4rem;
 }
 
