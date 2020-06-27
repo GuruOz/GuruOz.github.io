@@ -17,7 +17,6 @@ body {
   height: 100%;
   color: #fff;
   background-color: #000;
-  background-image: "../img/sky2.jpg";
   font-family: Montserrat, Arial, Helvetica, sans-serif;
   font-weight: 700;
 }
@@ -185,7 +184,7 @@ a {
 .info-container img {
   width: 75%;
   margin-bottom: 2.5rem;
-  filter: saturate(0.65);
+  filter: saturate(1);
 }
 
 .info-container h2,
@@ -245,7 +244,4 @@ a {
   }
 }
 
-.upsidedown {
-    -webkit-transform: rotateX(180deg);
-  transform: rotateX(180deg); 
-}
+
