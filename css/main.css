@@ -180,6 +180,7 @@ a {
   align-items: center;
   text-align: center;
   padding-bottom: 30.5rem;
+  padding-top: 300px;
 }
 
 .info-container img {
@@ -258,6 +259,7 @@ a {
     grid-column-gap: 3rem;
     align-items: center;
     text-align: left;
+    
   }
 
   .info-container img {
@@ -296,15 +298,7 @@ a {
 }
 
 @media (min-width: 1126px) {
-  .sky,
-  .bushes,
-  .water,
-  .people1,
-  .people2,
-  .people3,
-  .hero-text {
-    
-  }
+ 
 }
 
 
