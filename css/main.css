@@ -179,6 +179,7 @@ a {
   justify-content: center;
   align-items: center;
   text-align: center;
+  padding-bottom: 30.5rem;
 }
 
 .info-container img {
@@ -257,6 +258,7 @@ a {
     grid-column-gap: 3rem;
     align-items: center;
     text-align: left;
+    padding-bottom: 0rem;
   }
 
   .info-container img {
@@ -267,9 +269,8 @@ a {
   .journal-container{
     display: grid;
     grid-template-columns: 1fr;
-    grid-column-gap: 3rem;
     align-items: center;
-    text-align: left;
+    
   }
 
   .text-container p:nth-of-type(1) {
