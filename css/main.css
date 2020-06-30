@@ -138,7 +138,7 @@ a {
   visibility: visible;
 }
 
-.title {
+.year-container {
   position: absolute;
   left: 50%;
   top: 50%;
@@ -147,7 +147,7 @@ a {
   height: 25rem;
 }
 
-.title h1 {
+.year-container h1 {
   font-family: Bebas, sans-serif;
   font-weight: 400;
   position: absolute; 
@@ -233,7 +233,7 @@ a {
 
 .text-container-journal p:nth-of-type(1) {
   font-weight: 400;
-  font-size: 1rem;
+  font-size: 0.75rem;
   margin: 1rem 2.5rem;
   margin-left: 2.5rem;
   margin-right: 2.5rem;
@@ -269,6 +269,7 @@ a {
     grid-template-columns: 1fr;
     grid-column-gap: 3rem;
     align-items: center;
+    text-align: left;
   }
 
   .text-container p:nth-of-type(1) {
@@ -283,7 +284,7 @@ a {
 
   .text-container-journal p:nth-of-type(1) {
     font-weight: 400;
-    font-size: 1rem;
+    font-size: 0.75rem;
     margin: 1rem 2.5rem;
     margin-left: 10.5rem;
     margin-right: 10.5rem;
