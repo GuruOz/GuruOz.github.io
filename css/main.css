@@ -179,7 +179,7 @@ a {
   justify-content: center;
   align-items: center;
   text-align: center;
-  padding-bottom: 40.5rem;
+  padding-bottom: 70.5rem;
   padding-top: 300px;
 }
 
@@ -259,7 +259,7 @@ a {
     grid-column-gap: 3rem;
     align-items: center;
     text-align: left;
-    
+    padding-bottom: 2.5rem;
   }
 
   .info-container img {
