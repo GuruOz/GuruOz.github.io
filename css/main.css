@@ -184,7 +184,7 @@ a {
 .info-container img {
   width: 75%;
   margin-bottom: 2.5rem;
-  filter: saturate(1);
+  filter: saturate(0.75);
 }
 
 .info-container h2,
@@ -199,6 +199,49 @@ a {
 }
 
 .text-container p:nth-of-type(2) {
+  font-size: 0.6rem;
+  margin-bottom: 3rem;
+}
+
+
+.journal-container {
+  background: #000;
+  transform: translateZ(0) scale(1);
+  z-index: 8;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.journal-container h2,
+.journal-container p {
+  margin-bottom: 1rem;
+}
+
+.journal-container p:nth-of-type(1) {
+  font-weight: 400;
+  font-size: 0.75rem;
+  margin-bottom: 3rem;
+}
+
+.journal-container p:nth-of-type(2) {
+  font-size: 0.6rem;
+  margin-bottom: 3rem;
+}
+
+.text-container-journal p:nth-of-type(1) {
+  font-weight: 400;
+  font-size: 0.75rem;
+  margin: 1rem 2.5rem;
+  margin-left: 2.5rem;
+  margin-right: 2.5rem;
+  height: inherit;
+  width: inherit;
+}
+
+.text-container-journal p:nth-of-type(2) {
   font-size: 0.6rem;
   margin-bottom: 3rem;
 }
@@ -238,6 +281,17 @@ a {
   .text-container p:nth-of-type(1) {
     font-size: 0.86rem;
   }
+
+  .text-container-journal p:nth-of-type(1) {
+    font-weight: 400;
+    font-size: 0.75rem;
+    margin: 1rem 2.5rem;
+    margin-left: 10.5rem;
+    margin-right: 10.5rem;
+    height: inherit;
+    width: inherit;
+  }
+
 }
 
 @media (min-width: 1126px) {
@@ -250,55 +304,6 @@ a {
   .hero-text {
     background-size: contain;
   }
-}
-
-.journal-container {
-  background: #000;
-  transform: translateZ(0) scale(1);
-  z-index: 8;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-}
-
-.journal-container img {
-  width: 75%;
-  margin-bottom: 2.5rem;
-  filter: saturate(1);
-}
-
-.journal-container h2,
-.journal-container p {
-  margin-bottom: 1rem;
-}
-
-.journal-container p:nth-of-type(1) {
-  font-weight: 400;
-  font-size: 0.75rem;
-  margin-bottom: 3rem;
-  overflow: scroll;
-}
-
-.journal-container p:nth-of-type(2) {
-  font-size: 0.6rem;
-  margin-bottom: 3rem;
-}
-
-.text-container-journal p:nth-of-type(1) {
-  font-weight: 400;
-  font-size: 0.75rem;
-  margin: 1rem 2.5rem;
-  margin-left: 7.5rem;
-  margin-right: 7.5rem;
-  height: inherit;
-  width: inherit;
-}
-
-.text-container-journal p:nth-of-type(2) {
-  font-size: 0.6rem;
-  margin-bottom: 3rem;
 }
 
 
