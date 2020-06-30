@@ -221,6 +221,14 @@ a {
     width: 75%;
   }
 
+  .journal-container{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-column-gap: 3rem;
+    align-items: center;
+    text-align: left;
+  }
+
   .text-container p:nth-of-type(1) {
     font-size: 1rem;
     width: 75%;
