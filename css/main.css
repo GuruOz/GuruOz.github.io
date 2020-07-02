@@ -297,8 +297,15 @@ a {
 
 }
 
-@media (min-width: 1126px) {
- 
+@media (min-width: 1500px) {
+  .sky,
+  .bushes,
+  .water,
+  .people1,
+  .people2,
+  .people3,
+  .hero-text {
+    background-size: contain;
 }
 
 

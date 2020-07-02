@@ -250,9 +250,9 @@ a {
     width: inherit;
   }
 
-}
+}*/
 
-@media (min-width: 1126px) {
+@media (min-width: 1500px) {
   .sky,
   .bushes,
   .water,
@@ -262,6 +262,6 @@ a {
   .hero-text {
     background-size: contain;
   }
-}*/
+}
 
 
