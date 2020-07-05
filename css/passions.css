@@ -138,7 +138,7 @@ a {
   visibility: visible;
 }
 
-.title {
+.year-container {
   position: absolute;
   left: 50%;
   top: 50%;
@@ -147,7 +147,7 @@ a {
   height: 25rem;
 }
 
-.title h1 {
+.year-container h1 {
   font-family: Bebas, sans-serif;
   font-weight: 400;
   position: absolute; 
@@ -173,12 +173,14 @@ a {
 .info-container {
   background: #000;
   transform: translateZ(0) scale(1);
-  z-index: 8;
+  z-index: 9;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   text-align: center;
+  padding-bottom: 70.5rem;
+  padding-top: 300px;
 }
 
 .info-container img {
@@ -204,8 +206,52 @@ a {
 }
 
 
+.journal-container {
+  background: #000;
+  transform: translateZ(0) scale(1);
+  z-index: 8;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
 
-/*@media (min-width: 760px) {
+.journal-container h1,
+.journal-container p {
+  margin-bottom: 1rem;
+  background-color: black;
+}
+
+.journal-container h1{
+  padding-top: 20vh;
+}
+
+.journal-container p:nth-of-type(1) {
+  font-weight: 400;
+    margin-bottom: 3rem;
+}
+
+.journal-container p:nth-of-type(2) {
+  font-size: 0.6rem;
+  margin-bottom: 3rem;
+}
+
+.text-container-journal p:nth-of-type(1) {
+  font-weight: 400;
+  padding: 1rem 2.5rem;
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
+  height: inherit;
+  width: inherit;
+  
+}
+
+.text-container-journal p:nth-of-type(2) {
+  margin-bottom: 3rem;
+}
+
+@media (min-width: 80px) {
   .hero-text ul li {
     visibility: visible;
   }
@@ -216,6 +262,7 @@ a {
     grid-column-gap: 3rem;
     align-items: center;
     text-align: left;
+    padding-bottom: 2.5rem;
   }
 
   .info-container img {
@@ -228,29 +275,23 @@ a {
     grid-template-columns: 1fr;
     grid-column-gap: 3rem;
     align-items: center;
+    
   }
 
   .text-container p:nth-of-type(1) {
-    font-size: 1rem;
     width: 75%;
     margin: 1rem 0;
   }
 
-  .text-container p:nth-of-type(1) {
-    font-size: 0.86rem;
-  }
+  
 
   .text-container-journal p:nth-of-type(1) {
     font-weight: 400;
-    font-size: 0.75rem;
-    margin: 1rem 2.5rem;
-    margin-left: 10.5rem;
-    margin-right: 10.5rem;
     height: inherit;
     width: inherit;
   }
 
-}*/
+}
 
 @media (min-width: 1500px) {
   .sky,
@@ -261,7 +302,6 @@ a {
   .people3,
   .hero-text {
     background-size: contain;
-  }
 }
 
 
